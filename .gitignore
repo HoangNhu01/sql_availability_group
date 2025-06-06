@@ -1,0 +1,55 @@
+# File .gitignore cho SQL Server Docker AlwaysOn
+
+# Certificate files (không nên commit vào repo)
+# certificate/dbm_certificate.cer
+# certificate/dbm_certificate.pvk
+# certificate/*.pvk
+# certificate/*.cer
+
+# Docker volumes
+*-data/
+
+# Environment files with sensitive data
+.env
+*.env
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker compose override files (thường chứa cấu hình cục bộ)
+docker-compose.override.yml
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+# Backup files
+*.bak
+*.backup
+
+# SQL Server backup files
+*.bak
+*.trn
+
+# Local development files
+*.local.*
+local.*
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux files
+*~
