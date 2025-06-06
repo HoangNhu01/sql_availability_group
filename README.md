@@ -6,7 +6,7 @@ Docker templates to create a SQL Server latest availability group solution with 
 
 You can create a complete environment with 3 AlwaysOn nodes by following the next steps:
 
-1. Build the infrastructure (3 nodes named: sqlNode1, sqlNode2 and sqlNode3)
+1. Build the infrastructure (2 nodes named: sqlNode1, sqlNode2)
 
 ```cmd
 docker-compose build
